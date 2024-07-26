@@ -21,8 +21,8 @@ module.exports = router;
 
 
 // Usage:
-// Search: Make a GET request to /api/products/search?q=query where query is your search term.
-// Sort: Make a GET request to /api/products/sort?sortBy=field&sortOrder=asc/desc to sort by field.
-// Filter: Make a GET request to /api/products/filter?foodtype=type&rating=number&category=category&minPrice=min_price&maxPrice=max_price&brand=brand_name to filter by any combination of foodtype, rating, category, price, or brand.
+// Search: Make a GET request to /api/productssearch?q=query where query is your search term.
+// Sort: Make a GET request to /api/productssort?sortBy=field&sortOrder=asc/desc to sort by field.
+// Filter: Make a GET request to /api/productsfilter?foodtype=type&rating=number&category=category&minPrice=min_price&maxPrice=max_price&brand=brand_name to filter by any combination of foodtype, rating, category, price, or brand.
 // Pagination: Make a GET request to /api/products?page=page_number&limit=page_size for paginated results.
 

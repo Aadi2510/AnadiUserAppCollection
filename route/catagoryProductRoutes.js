@@ -4,11 +4,11 @@ const router = express.Router();
 
 const catagoryProductCotroller = require('../controller/catagoryProductCotroller.js')
 
-router.post('/saveCatagory', catagoryProductCotroller.saveCatagory);
+router.post('/saveCatagoryProduct', catagoryProductCotroller.saveCatagory);
 
-router.get('/getCatagory', catagoryProductCotroller.getCatagory);
+router.get('/getCatagoryProduct', catagoryProductCotroller.getCatagory);
 
-router.get('/createCatagory', catagoryProductCotroller.createCatagory);
+router.get('/createCatagoryProduct/:catagory', catagoryProductCotroller.createCatagory);
 
 module.exports = router
 

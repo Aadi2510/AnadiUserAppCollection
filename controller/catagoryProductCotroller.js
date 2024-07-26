@@ -6,7 +6,9 @@ const mongoose = require('mongoose');
 exports.saveCatagory =  (req, res) => {
  
     let finalData = new catagoryProduct({
-       catagory: req.body.catagory
+        catagory: req.body.catagory,
+       description: req.body.description,
+       date: req.body.date
     });
     console.log(finalData)
     finalData.save()
